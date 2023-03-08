@@ -1,0 +1,30 @@
+.avatar {
+    display: flex;
+}
+
+.avatar svg {
+    height: 20vh !important;
+    align-self: center;
+    margin-right: vw;
+}
+.chooseAvatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh
+}
+.span {
+    font-family: blu;
+    font-weight: 700;
+}
+.genderForm {
+    
+    display: flex;
+}
+.genderForm input {
+    width: 1vw;
+}
+form img {
+    width: 2vw;
+}

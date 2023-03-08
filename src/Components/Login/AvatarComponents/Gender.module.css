@@ -1,0 +1,31 @@
+.genderForm {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.genderForm div{
+    display: flex;
+    flex-direction: row;
+}
+
+.genderForm button {
+    height:4vh;
+    width: 4vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.genderForm button:focus {
+    border: 1.2px solid #457ecef7;
+    border-radius: 2vh;
+}
+
+.genderForm button svg {
+   height: 2vh !important;
+   margin: 0;
+   padding:0;
+}
+

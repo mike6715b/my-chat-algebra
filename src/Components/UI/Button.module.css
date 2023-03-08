@@ -1,0 +1,97 @@
+
+
+/* CSS */
+.buttonStyle{
+  height:34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-weight: 700;
+  font-size: 12px;;
+  padding: 7px 10px 7px;
+ touch-action: manipulation;
+ border-radius:  17px;
+ background-color: whitesmoke;
+  transition: 0.2s;
+  letter-spacing: 1.2px;
+  outline: 0;
+  cursor: pointer;
+  border: .2em solid whitesmoke ;
+  ;
+}
+.buttonStyle:focus {
+  transition: 0.1s;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.buttonStyle:hover {
+  transition: 0.1s;
+  background-color: aliceblue;
+  border: .2em solid rgb(216, 234, 249) ;
+}
+
+.buttonStyle:disabled,
+.buttonStyle:focus:disabled,
+.buttonStyle:hover:disabled,
+.buttonStyle:active:disabled,
+.buttonStyle:disabled {
+  transition: 0.2s;
+    background-color: #acb8c895 !important;
+    /* cursor: not-allowed !important; */
+    border: .2em solid #dce2e995 ;
+    cursor: url("../../../Media/closes.svg") 10 3 ,not-allowed;
+}
+@media (min-width: 768px) {
+  .buttonStyle {
+    padding: 13px 50px 13px;
+  }
+}
+/* }
+.buttonStyle {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buttonStyle:after {
+  content: "";
+  background-color: #2f68b6;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.buttonStyle:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.buttonStyle:disabled,
+.buttonStyle:focus:disabled,
+.buttonStyle:hover:disabled,
+.buttonStyle:active:disabled,
+.buttonStyle:disabled {
+    background-color: #acb8c895 !important;
+  cursor: not-allowed !important;
+}
+@media (min-width: 768px) {
+  .buttonStyle {
+    padding: 13px 50px 13px;
+  }
+} */
