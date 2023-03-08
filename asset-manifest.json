@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-chat-algebra/static/css/main.789f7245.css",
+    "main.js": "/my-chat-algebra/static/js/main.39d0b768.js",
+    "static/media/blu.woff": "/my-chat-algebra/static/media/blu.f66c455428484954d149.woff",
+    "static/media/closes.svg": "/my-chat-algebra/static/media/closes.5710337cfdc86e24aaf7.svg",
+    "index.html": "/my-chat-algebra/index.html",
+    "main.789f7245.css.map": "/my-chat-algebra/static/css/main.789f7245.css.map",
+    "main.39d0b768.js.map": "/my-chat-algebra/static/js/main.39d0b768.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.789f7245.css",
+    "static/js/main.39d0b768.js"
+  ]
+}
